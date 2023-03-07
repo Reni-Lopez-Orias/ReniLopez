@@ -3,9 +3,9 @@ GO
 CREATE DATABASE [DB_Usuarios]
  CONTAINMENT = NONE
  ON  PRIMARY 
-( NAME = N'DB_Usuarios', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL13.MSSQLSERVER\MSSQL\DATA\SISFE.mdf' , SIZE = 73728KB   )
+( NAME = N'DB_Usuarios', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL13.MSSQLSERVER\MSSQL\DATA\DB_Usuarios.mdf' , SIZE = 73728KB   )
  LOG ON 
-( NAME = N'DB_Usuarios_log', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL13.MSSQLSERVER\MSSQL\DATA\SISFE_log.ldf' , SIZE = 139264KB  )
+( NAME = N'DB_Usuarios_log', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL13.MSSQLSERVER\MSSQL\DATA\DB_Usuarios_log.ldf' , SIZE = 139264KB  )
 GO
  
 
