@@ -1,0 +1,187 @@
+<div *ngIf="!spinner" class="row">
+  <div class="col-md-6 mt-4">
+    <div class="row">
+      <div class="col-12">
+        <h2>Mantenimiento</h2>
+      </div>
+    </div>
+
+    <div>
+      <form autocomplete="off" [formGroup]="userForm" (ngSubmit)="submitForm()">
+        <!-- Nombre -->
+
+        <input formControlName="id" type="text" hidden  />
+
+        <div class="form-group">
+          <label>Nombre</label>
+          <input
+            onkeydown="return /^[ a-zA-ZñÑáéíóúÁÉÍÓÚ]+$/i.test(event.key)"
+            formControlName="nombre"
+            type="text"
+            class="form-control text-capitalize"
+            required
+          />
+          <app-mensaje-error
+            [control]="userForm.get('nombre')?.errors"
+          ></app-mensaje-error>
+        </div>
+
+        <!-- Apellido -->
+        <div class="form-group">
+          <label>Apellido</label>
+          <input
+            onkeydown="return /^[ a-zA-ZñÑáéíóúÁÉÍÓÚ]+$/i.test(event.key)"
+            formControlName="apellido"
+            type="text"
+            class="form-control text-capitalize"
+            required
+          />
+          <app-mensaje-error
+            class="margin-botton-error-label"
+            [control]="userForm.get('apellido')?.errors"
+          ></app-mensaje-error>
+        </div>
+
+        <!-- Correo Electrónico -->
+        <div class="form-group">
+          <label>Correo Electrónico</label>
+          <input
+            formControlName="correoElectronico"
+            type="email"
+            class="form-control"
+            required
+          />
+          <app-mensaje-error
+            class="margin-botton-error-label"
+            [control]="userForm.get('correoElectronico')?.errors"
+          ></app-mensaje-error>
+        </div>
+
+        <!-- fecha nacimiento  -->
+        <div class="form-group">
+          <label>Fecha de Nacimiento</label>
+          <input
+            [max]="this.fecha"
+            formControlName="fechaNacimiento"
+            type="date"
+            class="form-control"
+            required
+          />
+          <app-mensaje-error
+            class="margin-botton-error-label"
+            [control]="userForm.get('fechaNacimiento')?.errors"
+          ></app-mensaje-error>
+        </div>
+
+        <!-- telefono  -->
+        <div class="form-group">
+          <label>teléfono</label>
+          <input
+            (keypress)="validarTelefono($event)"
+            maxlength="8"
+            minlength="8"
+            formControlName="telefono"
+            type="text"
+            class="form-control"
+          />
+        </div>
+
+        <!-- pais de residencia  -->
+        <div class="form-group">
+          <label for="exampleInputPassword1">País de Residencia</label>
+          <select required class="custom-select">
+            <option *ngIf="paisSeleccionado.length == 0" disabled selected>
+              Seleccione
+            </option>
+            <option *ngIf="paisSeleccionado.length != 0" disabled selected>
+              {{ paisSeleccionado[0].nombre }}
+            </option>
+            <option *ngFor="let pais of paises" [value]="pais.codigo">
+              {{ pais.nombre }}
+            </option>
+          </select>
+        </div>
+
+        <div class="form-group form-check">
+          <input
+            type="checkbox"
+            formControlName="contacto"
+            class="form-check-input"
+            id="exampleCheck1"
+          />
+          <label class="form-check-label" for="exampleCheck1"
+            >¿Desea recibir información?</label
+          >
+        </div>
+
+        <!--  -->
+        <button
+          [disabled]="userForm.invalid"
+          (keyup.enter)="submitForm()"
+          type="submit"
+          class="btn btn-primary btn-block"
+        >
+          Enviar
+        </button>
+      </form>
+    </div>
+  </div>
+  <div class="col-md-6 mt-4">
+    <div class="row">
+      <div class="col-12">
+        <h2>Listado de Usuarios</h2>
+      </div>
+    </div>
+
+    <div>
+      <table datatable class="row-border hover table-responsive">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Correo</th>
+            <th>F. Nacimiento</th>
+            <th>Teléfono</th>
+            <th>P. Residencia</th>
+            <th>Contacto</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let usuario of usuarios; let i = index">
+            <td>{{ i + 1 }}</td>
+            <td>{{ usuario.nombre }}</td>
+            <td>{{ usuario.apellido }}</td>
+            <td>{{ usuario.correoElectronico }}</td>
+            <td>{{ usuario.fechaNacimiento | date : "yyyy/MM/dd" }}</td>
+            <td>{{ usuario.telefono }}</td>
+            <td>{{ usuario.paisResidencia }}</td>
+            <td>
+              <div class="form-group form-check">
+                <input
+                  disabled
+                  type="checkbox"
+                  [checked]="usuario.contacto"
+                  class="form-check-input"
+                  id="exampleCheck1"
+                />
+              </div>
+            </td>
+            <td style="display: flex">
+              <button
+                class="btn btn-warning mr-2 text-white"
+                (click)="seleccionarUsuario(usuario)"
+              >
+                Editar
+              </button>
+              <button class="btn btn-danger" (click)="eliminarUsuario(usuario)">
+                Eliminar
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

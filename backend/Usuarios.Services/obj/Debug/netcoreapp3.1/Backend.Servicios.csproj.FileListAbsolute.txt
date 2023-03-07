@@ -1,0 +1,16 @@
+C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\Usuarios.Services\bin\Debug\netcoreapp3.1\Backend.Servicios.deps.json
+C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\Usuarios.Services\bin\Debug\netcoreapp3.1\Backend.Servicios.runtimeconfig.json
+C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\Usuarios.Services\bin\Debug\netcoreapp3.1\Backend.Servicios.runtimeconfig.dev.json
+C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\Usuarios.Services\bin\Debug\netcoreapp3.1\Backend.Servicios.dll
+C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\Usuarios.Services\bin\Debug\netcoreapp3.1\Backend.Servicios.pdb
+C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\Usuarios.Services\bin\Debug\netcoreapp3.1\Backend.Entidades.dll
+C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\Usuarios.Services\bin\Debug\netcoreapp3.1\Backend.Entidades.pdb
+C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\Usuarios.Services\obj\Debug\netcoreapp3.1\Backend.Servicios.csproj.AssemblyReference.cache
+C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\Usuarios.Services\obj\Debug\netcoreapp3.1\Backend.Servicios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\Usuarios.Services\obj\Debug\netcoreapp3.1\Backend.Servicios.AssemblyInfoInputs.cache
+C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\Usuarios.Services\obj\Debug\netcoreapp3.1\Backend.Servicios.AssemblyInfo.cs
+C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\Usuarios.Services\obj\Debug\netcoreapp3.1\Backend.Servicios.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\Usuarios.Services\obj\Debug\netcoreapp3.1\Backend.Servicios.csproj.CopyComplete
+C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\Usuarios.Services\obj\Debug\netcoreapp3.1\Backend.Servicios.dll
+C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\Usuarios.Services\obj\Debug\netcoreapp3.1\Backend.Servicios.pdb
+C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\Usuarios.Services\obj\Debug\netcoreapp3.1\Backend.Servicios.genruntimeconfig.cache

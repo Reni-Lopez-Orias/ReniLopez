@@ -1,0 +1,6 @@
+C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\Backend.Servicio\bin\Debug\Backend.Servicio.dll
+C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\Backend.Servicio\bin\Debug\Backend.Servicio.pdb
+C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\Backend.Servicio\obj\Debug\Backend.Servicio.csproj.AssemblyReference.cache
+C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\Backend.Servicio\obj\Debug\Backend.Servicio.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\Backend.Servicio\obj\Debug\Backend.Servicio.dll
+C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\Backend.Servicio\obj\Debug\Backend.Servicio.pdb

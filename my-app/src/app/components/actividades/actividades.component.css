@@ -1,0 +1,5 @@
+.scroll-list{
+    width: 100%;
+    height: 29rem;
+    overflow: auto;
+}

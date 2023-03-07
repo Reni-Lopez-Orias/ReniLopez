@@ -1,0 +1,951 @@
+2023-03-06T02:33:27.5898341-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T02:33:27.6042839-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T02:33:27.6085327-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T02:34:36.4449067-06:00 80000014-0007-ff00-b63f-84710c7967bb [ERR] An error occurred using the connection to database '"DB_Usuarios"' on server '"(localdb)\MSSQLLocalDB"'. (5fc3407c)
+2023-03-06T02:34:48.1957997-06:00 80000006-0004-fe00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("184"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 50) (DbType = AnsiString), @p2='?' (DbType = Boolean), @p3='?' (Size = 50) (DbType = AnsiString), @p4='?' (DbType = DateTime), @p5='?' (Size = 50) (DbType = AnsiString), @p6='?' (Size = -1) (DbType = AnsiString), @p7='?' (Size = 8) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [dbo].[usuarios] ([id_usuario], [apellido], [contacto], [correo_electronico], [fecha_nacimiento], [nombre], [pais_residencia], [telefono])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);" (627a98df)
+2023-03-06T02:41:54.9687270-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T02:41:54.9797637-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T02:41:54.9823715-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T02:52:58.5764176-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T02:52:58.5873027-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T02:52:58.5897403-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T02:54:36.9443368-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T02:54:36.9555723-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T02:54:36.9583295-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T03:01:51.6209197-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T03:01:51.6396412-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T03:01:51.6435773-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T03:06:41.7222586-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T03:06:41.7331915-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T03:06:41.7362623-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T03:09:12.9204191-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T03:09:12.9321879-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T03:09:12.9352238-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T03:10:16.4051249-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T03:10:16.4178933-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T03:10:16.4207241-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T03:15:28.9871512-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T03:15:29.0006250-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T03:15:29.0073952-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T03:25:47.9699453-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T03:25:47.9828128-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T03:25:47.9858948-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T03:48:33.8299142-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T03:48:33.8403145-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T03:48:33.8426662-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T12:45:23.6570901-06:00 80000051-0004-fe00-b63f-84710c7967bb [ERR] An error occurred using a transaction. (2ffd8ddb)
+2023-03-06T12:46:12.7902135-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T12:46:12.8009253-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T12:46:12.8047093-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T12:50:55.3899918-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T12:50:55.3997009-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T12:50:55.4020337-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T12:54:12.5869624-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T12:54:12.6193707-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T12:54:12.6222188-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T12:55:01.7580646-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T12:55:01.7686400-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T12:55:01.7710060-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T12:55:44.4183331-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T12:55:44.4305120-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T12:55:44.4331744-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T12:56:03.9820185-06:00 80000035-0002-fd00-b63f-84710c7967bb [ERR] An error occurred using a transaction. (2ffd8ddb)
+2023-03-06T12:56:58.3482405-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T12:56:58.3648176-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T12:56:58.3693738-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T13:06:41.3300677-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T13:06:41.3422588-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T13:06:41.3455078-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T13:07:48.1492775-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T13:07:48.1632770-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T13:07:48.1665934-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T13:07:55.1319156-06:00 8000005d-0004-fe00-b63f-84710c7967bb [ERR] An error occurred using the connection to database '"DB_Usuarios"' on server '"(localdb)\MSSQLLocalDB"'. (5fc3407c)
+2023-03-06T13:10:34.3868613-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T13:10:34.3989201-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T13:10:34.4018415-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T13:10:50.1415389-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T13:10:50.1650458-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T13:10:50.1710008-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T13:11:43.8496966-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T13:11:43.8609559-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T13:11:43.8633832-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T13:12:20.2343030-06:00 80000010-0000-fe00-b63f-84710c7967bb [ERR] An exception occurred while iterating over the results of a query for context type '"Backend.Entidades.Contexto"'."
+""System.InvalidOperationException: A second operation started on this context before a previous operation completed. This is usually caused by different threads using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()" (f5c7ac34)
+System.InvalidOperationException: A second operation started on this context before a previous operation completed. This is usually caused by different threads using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.LargeArrayBuilder`1.AddRange(IEnumerable`1 items)
+   at System.Collections.Generic.EnumerableHelpers.ToArray[T](IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at System.Linq.SystemCore_EnumerableDebugView`1.get_Items()
+2023-03-06T13:12:30.8083958-06:00 80000010-0000-fe00-b63f-84710c7967bb [ERR] An exception occurred while iterating over the results of a query for context type '"Backend.Entidades.Contexto"'."
+""System.InvalidOperationException: A second operation started on this context before a previous operation completed. This is usually caused by different threads using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()" (f5c7ac34)
+System.InvalidOperationException: A second operation started on this context before a previous operation completed. This is usually caused by different threads using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.LargeArrayBuilder`1.AddRange(IEnumerable`1 items)
+   at System.Collections.Generic.EnumerableHelpers.ToArray[T](IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at System.Linq.SystemCore_EnumerableDebugView`1.get_Items()
+2023-03-06T13:12:36.0278594-06:00 80000010-0000-fe00-b63f-84710c7967bb [ERR] An error occurred using a transaction. (2ffd8ddb)
+2023-03-06T13:16:21.4502261-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T13:16:21.4657369-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T13:16:21.4692682-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T13:18:34.6104822-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T13:18:34.6218094-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T13:18:34.6250188-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T13:19:12.5229171-06:00 8000003f-0007-ff00-b63f-84710c7967bb [ERR] An error occurred using a transaction. (2ffd8ddb)
+2023-03-06T13:20:44.7221997-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T13:20:44.7355292-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T13:20:44.7396608-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T13:21:29.7253557-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T13:21:29.7377477-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T13:21:29.7421576-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T13:25:50.9205906-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T13:25:50.9307154-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T13:25:50.9342465-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T13:26:14.8331028-06:00 80000025-0002-ff00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("23"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 50) (DbType = AnsiString), @p2='?' (DbType = Boolean), @p3='?' (Size = 50) (DbType = AnsiString), @p4='?' (DbType = DateTime), @p5='?' (Size = 50) (DbType = AnsiString), @p6='?' (Size = 5) (DbType = AnsiString), @p7='?' (Size = 8) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [dbo].[usuarios] ([id_usuario], [apellido], [contacto], [correo_electronico], [fecha_nacimiento], [nombre], [pais_residencia], [telefono])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);" (627a98df)
+2023-03-06T13:38:50.2185885-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T13:38:50.2634902-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T13:38:50.2678701-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T13:39:14.9768373-06:00 80000004-0005-fc00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("2,146"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 50) (DbType = AnsiString), @p2='?' (DbType = Boolean), @p3='?' (Size = 50) (DbType = AnsiString), @p4='?' (DbType = DateTime), @p5='?' (Size = 50) (DbType = AnsiString), @p6='?' (Size = 5) (DbType = AnsiString), @p7='?' (Size = 8) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [dbo].[usuarios] ([id_usuario], [apellido], [contacto], [correo_electronico], [fecha_nacimiento], [nombre], [pais_residencia], [telefono])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);" (627a98df)
+2023-03-06T13:39:40.9827455-06:00 80000067-0004-fe00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("5"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 50) (DbType = AnsiString), @p2='?' (DbType = Boolean), @p3='?' (Size = 50) (DbType = AnsiString), @p4='?' (DbType = DateTime), @p5='?' (Size = 50) (DbType = AnsiString), @p6='?' (Size = 5) (DbType = AnsiString), @p7='?' (Size = 8) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [dbo].[usuarios] ([id_usuario], [apellido], [contacto], [correo_electronico], [fecha_nacimiento], [nombre], [pais_residencia], [telefono])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);" (627a98df)
+2023-03-06T13:40:30.6655125-06:00 80000009-0000-fd00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("2,693"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 50) (DbType = AnsiString), @p2='?' (DbType = Boolean), @p3='?' (Size = 50) (DbType = AnsiString), @p4='?' (DbType = DateTime), @p5='?' (Size = 50) (DbType = AnsiString), @p6='?' (Size = 5) (DbType = AnsiString), @p7='?' (Size = 8) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [dbo].[usuarios] ([id_usuario], [apellido], [contacto], [correo_electronico], [fecha_nacimiento], [nombre], [pais_residencia], [telefono])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);" (627a98df)
+2023-03-06T13:40:55.1538856-06:00 80000045-0007-ff00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("13"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 50) (DbType = AnsiString), @p2='?' (DbType = Boolean), @p3='?' (Size = 50) (DbType = AnsiString), @p4='?' (DbType = DateTime), @p5='?' (Size = 50) (DbType = AnsiString), @p6='?' (Size = 5) (DbType = AnsiString), @p7='?' (Size = 8) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [dbo].[usuarios] ([id_usuario], [apellido], [contacto], [correo_electronico], [fecha_nacimiento], [nombre], [pais_residencia], [telefono])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);" (627a98df)
+2023-03-06T13:41:09.2555341-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T13:41:09.2664623-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T13:41:09.2697326-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T13:41:31.3245270-06:00 80000017-0000-fe00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("1,259"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 50) (DbType = AnsiString), @p2='?' (DbType = Boolean), @p3='?' (Size = 50) (DbType = AnsiString), @p4='?' (DbType = DateTime), @p5='?' (Size = 50) (DbType = AnsiString), @p6='?' (Size = 5) (DbType = AnsiString), @p7='?' (Size = 8) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [dbo].[usuarios] ([id_usuario], [apellido], [contacto], [correo_electronico], [fecha_nacimiento], [nombre], [pais_residencia], [telefono])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);" (627a98df)
+2023-03-06T13:42:44.7297393-06:00 80000047-0007-ff00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("16"ms) [Parameters=["@p0='?' (Size = 50) (DbType = AnsiString), @p1='?' (DbType = Boolean), @p2='?' (Size = 50) (DbType = AnsiString), @p3='?' (DbType = DateTime), @p4='?' (Size = 50) (DbType = AnsiString), @p5='?' (Size = -1) (DbType = AnsiString), @p6='?' (Size = 8) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [dbo].[usuarios] ([apellido], [contacto], [correo_electronico], [fecha_nacimiento], [nombre], [pais_residencia], [telefono])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+SELECT [id_usuario]
+FROM [dbo].[usuarios]
+WHERE @@ROWCOUNT = 1 AND [id_usuario] = scope_identity();" (627a98df)
+2023-03-06T14:33:24.8701049-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T14:33:24.8753129-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T14:33:24.8768338-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T14:34:28.3960738-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T14:34:28.4063433-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T14:34:28.4103731-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T14:35:52.3555380-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T14:35:52.3618825-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T14:35:52.3635264-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T14:42:35.8895723-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T14:42:35.9045945-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T14:42:35.9074253-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T15:27:21.1556996-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T15:27:21.1737431-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T15:27:21.1775914-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T15:28:15.8459772-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T15:28:15.8578793-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T15:28:15.8610473-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T15:42:17.1584753-06:00 80000037-0006-fc00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("11"ms) [Parameters=["@p0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+DELETE FROM [dbo].[usuarios]
+WHERE [id_usuario] = @p0;
+SELECT @@ROWCOUNT;" (627a98df)
+2023-03-06T15:42:38.8970970-06:00 8000003b-0006-fc00-b63f-84710c7967bb [ERR] An error occurred using a transaction. (2ffd8ddb)
+2023-03-06T15:42:49.9648285-06:00 8000003d-0006-fc00-b63f-84710c7967bb [ERR] An error occurred using a transaction. (2ffd8ddb)
+2023-03-06T15:42:52.4198151-06:00 80000037-0002-ff00-b63f-84710c7967bb [ERR] An error occurred using a transaction. (2ffd8ddb)
+2023-03-06T19:58:01.3735952-06:00 8000005f-0007-ff00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("6,448"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 50) (DbType = AnsiString), @p2='?' (DbType = Boolean), @p3='?' (Size = 50) (DbType = AnsiString), @p4='?' (DbType = DateTime), @p5='?' (Size = 50) (DbType = AnsiString), @p6='?' (Size = 5) (DbType = AnsiString), @p7='?' (Size = 8) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [dbo].[usuarios] ([id_usuario], [apellido], [contacto], [correo_electronico], [fecha_nacimiento], [nombre], [pais_residencia], [telefono])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);" (627a98df)
+2023-03-06T19:58:22.3246276-06:00 8000006e-0001-fd00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("8"ms) [Parameters=["@p0='?' (Size = 50) (DbType = AnsiString), @p1='?' (DbType = Boolean), @p2='?' (Size = 50) (DbType = AnsiString), @p3='?' (DbType = DateTime), @p4='?' (Size = 50) (DbType = AnsiString), @p5='?' (Size = -1) (DbType = AnsiString), @p6='?' (Size = 8) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [dbo].[usuarios] ([apellido], [contacto], [correo_electronico], [fecha_nacimiento], [nombre], [pais_residencia], [telefono])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+SELECT [id_usuario]
+FROM [dbo].[usuarios]
+WHERE @@ROWCOUNT = 1 AND [id_usuario] = scope_identity();" (627a98df)
+2023-03-06T19:59:55.5334843-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T19:59:55.5454227-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T19:59:55.5477749-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T20:05:08.9144335-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T20:05:08.9279587-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T20:05:08.9315692-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T20:16:05.3521868-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T20:16:05.3627750-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T20:16:05.3655783-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T20:29:21.9315313-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T20:29:21.9431320-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T20:29:21.9461765-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T20:29:55.3634362-06:00 80000004-0002-fd00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("4,352"ms) [Parameters=["@p0='?' (Size = 50) (DbType = AnsiString), @p1='?' (DbType = Boolean), @p2='?' (Size = 50) (DbType = AnsiString), @p3='?' (DbType = DateTime), @p4='?' (Size = 50) (DbType = AnsiString), @p5='?' (Size = -1) (DbType = AnsiString), @p6='?' (Size = 8) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [dbo].[usuarios] ([apellido], [contacto], [correo_electronico], [fecha_nacimiento], [nombre], [pais_residencia], [telefono])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+SELECT [id_usuario]
+FROM [dbo].[usuarios]
+WHERE @@ROWCOUNT = 1 AND [id_usuario] = scope_identity();" (627a98df)
+2023-03-06T20:36:48.5146464-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T20:36:48.5249230-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T20:36:48.5276615-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T20:55:50.7646135-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T20:55:50.7774318-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T20:55:50.7797493-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T21:04:07.8541051-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T21:04:07.8653088-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T21:04:07.8676704-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T21:04:31.3629643-06:00 80000004-0003-ff00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("43"ms) [Parameters=["@p0='?' (Size = 50) (DbType = AnsiString), @p1='?' (DbType = Boolean), @p2='?' (Size = 50) (DbType = AnsiString), @p3='?' (DbType = DateTime), @p4='?' (Size = 50) (DbType = AnsiString), @p5='?' (Size = -1) (DbType = AnsiString), @p6='?' (Size = 8) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [dbo].[usuarios] ([apellido], [contacto], [correo_electronico], [fecha_nacimiento], [nombre], [pais_residencia], [telefono])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+SELECT [id_usuario]
+FROM [dbo].[usuarios]
+WHERE @@ROWCOUNT = 1 AND [id_usuario] = scope_identity();" (627a98df)
+2023-03-06T21:04:31.5043152-06:00 80000004-0003-ff00-b63f-84710c7967bb [ERR] An exception occurred in the database while saving changes for context type '"Backend.Entidades.Contexto"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated in table 'DB_Usuarios.dbo.usuarios', column 'pais_residencia'. Truncated value: 'strin'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:b0ae95ee-6bad-40c9-b3b1-a1bfdbb99b1c
+Error Number:2628,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated in table 'DB_Usuarios.dbo.usuarios', column 'pais_residencia'. Truncated value: 'strin'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:b0ae95ee-6bad-40c9-b3b1-a1bfdbb99b1c
+Error Number:2628,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-03-06T21:06:58.4549212-06:00 80000004-0003-ff00-b63f-84710c7967bb [ERR] Ha ocurrido en clase: UsuarioController, datos del error:String or binary data would be truncated in table 'DB_Usuarios.dbo.usuarios', column 'pais_residencia'. Truncated value: 'strin'.
+The statement has been terminated., fecha: 01/01/0001 0:00:00 (15605ced)
+2023-03-06T21:09:38.1709328-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T21:09:38.1828168-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T21:09:38.1854775-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T21:13:03.8245121-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T21:13:03.8372259-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T21:13:03.8399611-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T21:21:38.6094844-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T21:21:38.6194834-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T21:21:38.6217203-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T21:24:29.9741975-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T21:24:29.9845011-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T21:24:29.9870074-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T21:25:17.8812293-06:00 8000000b-0000-ff00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("50"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 50) (DbType = AnsiString), @p2='?' (DbType = Boolean), @p3='?' (Size = 50) (DbType = AnsiString), @p4='?' (DbType = DateTime), @p5='?' (Size = 50) (DbType = AnsiString), @p6='?' (Size = 5) (DbType = AnsiString), @p7='?' (Size = 8) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [dbo].[usuarios] ([id_usuario], [apellido], [contacto], [correo_electronico], [fecha_nacimiento], [nombre], [pais_residencia], [telefono])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);" (627a98df)
+2023-03-06T21:25:17.9857911-06:00 8000000b-0000-ff00-b63f-84710c7967bb [ERR] An exception occurred in the database while saving changes for context type '"Backend.Entidades.Contexto"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'usuarios' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:efb93ffc-6fd6-46a8-9425-bd732fe32d2b
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'usuarios' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:efb93ffc-6fd6-46a8-9425-bd732fe32d2b
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-03-06T21:25:18.0241011-06:00 8000000b-0000-ff00-b63f-84710c7967bb [ERR] Ha ocurrido en clase: UsuarioController, datos del error:Cannot insert explicit value for identity column in table 'usuarios' when IDENTITY_INSERT is set to OFF., fecha: 01/01/0001 0:00:00 (4b11cb4e)
+2023-03-06T21:25:46.3159529-06:00 8000000d-0006-ff00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("22"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 50) (DbType = AnsiString), @p2='?' (DbType = Boolean), @p3='?' (Size = 50) (DbType = AnsiString), @p4='?' (DbType = DateTime), @p5='?' (Size = 50) (DbType = AnsiString), @p6='?' (Size = 5) (DbType = AnsiString), @p7='?' (Size = 8) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [dbo].[usuarios] ([id_usuario], [apellido], [contacto], [correo_electronico], [fecha_nacimiento], [nombre], [pais_residencia], [telefono])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);" (627a98df)
+2023-03-06T21:25:46.3439616-06:00 8000000d-0006-ff00-b63f-84710c7967bb [ERR] An exception occurred in the database while saving changes for context type '"Backend.Entidades.Contexto"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'usuarios' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:efb93ffc-6fd6-46a8-9425-bd732fe32d2b
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'usuarios' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:efb93ffc-6fd6-46a8-9425-bd732fe32d2b
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-03-06T21:26:35.8087865-06:00 8000000d-0006-ff00-b63f-84710c7967bb [ERR] Ha ocurrido en clase: UsuarioController, datos del error:Cannot insert explicit value for identity column in table 'usuarios' when IDENTITY_INSERT is set to OFF., fecha: 01/01/0001 0:00:00 (4b11cb4e)
+2023-03-06T21:26:54.0978791-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T21:26:54.1119505-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T21:26:54.1151785-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T21:27:41.5440538-06:00 8000000d-0000-ff00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("38"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 50) (DbType = AnsiString), @p2='?' (DbType = Boolean), @p3='?' (Size = 50) (DbType = AnsiString), @p4='?' (DbType = DateTime), @p5='?' (Size = 50) (DbType = AnsiString), @p6='?' (Size = 5) (DbType = AnsiString), @p7='?' (Size = 8) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [dbo].[usuarios] ([id_usuario], [apellido], [contacto], [correo_electronico], [fecha_nacimiento], [nombre], [pais_residencia], [telefono])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);" (627a98df)
+2023-03-06T21:27:41.6569209-06:00 8000000d-0000-ff00-b63f-84710c7967bb [ERR] An exception occurred in the database while saving changes for context type '"Backend.Entidades.Contexto"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'usuarios' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:7e650aaf-f411-45af-a9ac-54e158eb6137
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'usuarios' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:7e650aaf-f411-45af-a9ac-54e158eb6137
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-03-06T21:30:44.8329732-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T21:30:44.8481674-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T21:30:44.8532658-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T21:31:43.7743418-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T21:31:43.7858513-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T21:31:43.7889562-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T21:32:55.7576791-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T21:32:55.7702518-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T21:32:55.7735194-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T21:36:00.4346057-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T21:36:00.4501957-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T21:36:00.4529234-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T21:37:48.6830339-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T21:37:48.7026872-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T21:37:48.7078182-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T21:47:00.8031362-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T21:47:00.8142090-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T21:47:00.8165365-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T21:47:30.1382908-06:00 80000016-0004-ff00-b63f-84710c7967bb [ERR] Ha ocurrido en clase: UsuarioController, datos del error:Database operation expected to affect 1 row(s) but actually affected 0 row(s). Data may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions., fecha: 01/01/0001 0:00:00 (37cbd84c)
+2023-03-06T21:48:35.3251882-06:00 8000000a-0006-fe00-b63f-84710c7967bb [ERR] Ha ocurrido en clase: UsuarioController, datos del error:Database operation expected to affect 1 row(s) but actually affected 0 row(s). Data may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions., fecha: 01/01/0001 0:00:00 (37cbd84c)
+2023-03-06T21:49:36.8653200-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T21:49:36.8807940-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T21:49:36.8840952-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T22:45:06.2078138-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T22:45:06.2202512-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T22:45:06.2232662-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T22:48:49.5196036-06:00 80000006-0004-fb00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("24"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 50) (DbType = AnsiString), @p2='?' (DbType = Boolean), @p3='?' (Size = 50) (DbType = AnsiString), @p4='?' (DbType = DateTime), @p5='?' (Size = 50) (DbType = AnsiString), @p6='?' (Size = 5) (DbType = AnsiString), @p7='?' (Size = 8) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [dbo].[usuarios] ([id_usuario], [apellido], [contacto], [correo_electronico], [fecha_nacimiento], [nombre], [pais_residencia], [telefono])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);" (627a98df)
+2023-03-06T22:48:49.6542227-06:00 80000006-0004-fb00-b63f-84710c7967bb [ERR] An exception occurred in the database while saving changes for context type '"Backend.Entidades.Contexto"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'usuarios' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:f25be19a-0728-42ae-b07f-96446a6f1cb2
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'usuarios' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:f25be19a-0728-42ae-b07f-96446a6f1cb2
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-03-06T22:48:49.7418331-06:00 80000006-0004-fb00-b63f-84710c7967bb [ERR] Ha ocurrido en clase: UsuarioController, datos del error:Cannot insert explicit value for identity column in table 'usuarios' when IDENTITY_INSERT is set to OFF., fecha: 01/01/0001 0:00:00 (4b11cb4e)
+2023-03-06T22:51:26.2606659-06:00 80000015-0007-fe00-b63f-84710c7967bb [ERR] Ha ocurrido en clase: UsuarioController, datos del error:Database operation expected to affect 1 row(s) but actually affected 0 row(s). Data may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions., fecha: 01/01/0001 0:00:00 (37cbd84c)
+2023-03-06T22:52:00.7548129-06:00 80000017-0007-fe00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("5"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 50) (DbType = AnsiString), @p2='?' (DbType = Boolean), @p3='?' (Size = 50) (DbType = AnsiString), @p4='?' (DbType = DateTime), @p5='?' (Size = 50) (DbType = AnsiString), @p6='?' (Size = 5) (DbType = AnsiString), @p7='?' (Size = 8) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [dbo].[usuarios] ([id_usuario], [apellido], [contacto], [correo_electronico], [fecha_nacimiento], [nombre], [pais_residencia], [telefono])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);" (627a98df)
+2023-03-06T22:52:00.7843953-06:00 80000017-0007-fe00-b63f-84710c7967bb [ERR] An exception occurred in the database while saving changes for context type '"Backend.Entidades.Contexto"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'usuarios' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:f25be19a-0728-42ae-b07f-96446a6f1cb2
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'usuarios' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:f25be19a-0728-42ae-b07f-96446a6f1cb2
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-03-06T22:52:00.8365249-06:00 80000017-0007-fe00-b63f-84710c7967bb [ERR] Ha ocurrido en clase: UsuarioController, datos del error:Cannot insert explicit value for identity column in table 'usuarios' when IDENTITY_INSERT is set to OFF., fecha: 01/01/0001 0:00:00 (4b11cb4e)
+2023-03-06T22:52:07.7968360-06:00 80000005-0004-fc00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("5"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 50) (DbType = AnsiString), @p2='?' (DbType = Boolean), @p3='?' (Size = 50) (DbType = AnsiString), @p4='?' (DbType = DateTime), @p5='?' (Size = 50) (DbType = AnsiString), @p6='?' (Size = 5) (DbType = AnsiString), @p7='?' (Size = 8) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [dbo].[usuarios] ([id_usuario], [apellido], [contacto], [correo_electronico], [fecha_nacimiento], [nombre], [pais_residencia], [telefono])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);" (627a98df)
+2023-03-06T22:52:07.8259631-06:00 80000005-0004-fc00-b63f-84710c7967bb [ERR] An exception occurred in the database while saving changes for context type '"Backend.Entidades.Contexto"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'usuarios' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:f25be19a-0728-42ae-b07f-96446a6f1cb2
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'usuarios' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:f25be19a-0728-42ae-b07f-96446a6f1cb2
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-03-06T22:52:07.8645662-06:00 80000005-0004-fc00-b63f-84710c7967bb [ERR] Ha ocurrido en clase: UsuarioController, datos del error:Cannot insert explicit value for identity column in table 'usuarios' when IDENTITY_INSERT is set to OFF., fecha: 01/01/0001 0:00:00 (4b11cb4e)
+2023-03-06T22:54:07.7596237-06:00 8000000b-0000-fe00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("4"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 50) (DbType = AnsiString), @p2='?' (DbType = Boolean), @p3='?' (Size = 50) (DbType = AnsiString), @p4='?' (DbType = DateTime), @p5='?' (Size = 50) (DbType = AnsiString), @p6='?' (Size = 5) (DbType = AnsiString), @p7='?' (Size = 8) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [dbo].[usuarios] ([id_usuario], [apellido], [contacto], [correo_electronico], [fecha_nacimiento], [nombre], [pais_residencia], [telefono])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);" (627a98df)
+2023-03-06T22:54:07.7825515-06:00 8000000b-0000-fe00-b63f-84710c7967bb [ERR] An exception occurred in the database while saving changes for context type '"Backend.Entidades.Contexto"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'usuarios' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:f25be19a-0728-42ae-b07f-96446a6f1cb2
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'usuarios' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:f25be19a-0728-42ae-b07f-96446a6f1cb2
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-03-06T22:54:07.8215887-06:00 8000000b-0000-fe00-b63f-84710c7967bb [ERR] Ha ocurrido en clase: UsuarioController, datos del error:Cannot insert explicit value for identity column in table 'usuarios' when IDENTITY_INSERT is set to OFF., fecha: 01/01/0001 0:00:00 (4b11cb4e)
+2023-03-06T22:57:51.1105697-06:00 8000000b-0004-fc00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("60"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 50) (DbType = AnsiString), @p2='?' (DbType = Boolean), @p3='?' (Size = 50) (DbType = AnsiString), @p4='?' (DbType = DateTime), @p5='?' (Size = 50) (DbType = AnsiString), @p6='?' (Size = 5) (DbType = AnsiString), @p7='?' (Size = 8) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [dbo].[usuarios] ([id_usuario], [apellido], [contacto], [correo_electronico], [fecha_nacimiento], [nombre], [pais_residencia], [telefono])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);" (627a98df)
+2023-03-06T22:57:51.1409050-06:00 8000000b-0004-fc00-b63f-84710c7967bb [ERR] An exception occurred in the database while saving changes for context type '"Backend.Entidades.Contexto"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'usuarios' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:f25be19a-0728-42ae-b07f-96446a6f1cb2
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'usuarios' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:f25be19a-0728-42ae-b07f-96446a6f1cb2
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-03-06T22:57:51.2089822-06:00 8000000b-0004-fc00-b63f-84710c7967bb [ERR] Ha ocurrido en clase: UsuarioController, datos del error:Cannot insert explicit value for identity column in table 'usuarios' when IDENTITY_INSERT is set to OFF., fecha: 01/01/0001 0:00:00 (4b11cb4e)
+2023-03-06T22:58:49.8888549-06:00 8000001a-0003-ff00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("31"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 50) (DbType = AnsiString), @p2='?' (DbType = Boolean), @p3='?' (Size = 50) (DbType = AnsiString), @p4='?' (DbType = DateTime), @p5='?' (Size = 50) (DbType = AnsiString), @p6='?' (Size = 5) (DbType = AnsiString), @p7='?' (Size = 8) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [dbo].[usuarios] ([id_usuario], [apellido], [contacto], [correo_electronico], [fecha_nacimiento], [nombre], [pais_residencia], [telefono])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);" (627a98df)
+2023-03-06T22:58:49.9165143-06:00 8000001a-0003-ff00-b63f-84710c7967bb [ERR] An exception occurred in the database while saving changes for context type '"Backend.Entidades.Contexto"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'usuarios' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:91d642f7-f081-4348-9ab1-b50340ed880f
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'usuarios' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:91d642f7-f081-4348-9ab1-b50340ed880f
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-03-06T22:58:53.0177063-06:00 8000001a-0003-ff00-b63f-84710c7967bb [ERR] Ha ocurrido en clase: UsuarioController, datos del error:Cannot insert explicit value for identity column in table 'usuarios' when IDENTITY_INSERT is set to OFF., fecha: 01/01/0001 0:00:00 (4b11cb4e)
+2023-03-06T23:02:57.3631764-06:00 8000002a-0006-ff00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("46"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 50) (DbType = AnsiString), @p2='?' (DbType = Boolean), @p3='?' (Size = 50) (DbType = AnsiString), @p4='?' (DbType = DateTime), @p5='?' (Size = 50) (DbType = AnsiString), @p6='?' (Size = 5) (DbType = AnsiString), @p7='?' (Size = 8) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [dbo].[usuarios] ([id_usuario], [apellido], [contacto], [correo_electronico], [fecha_nacimiento], [nombre], [pais_residencia], [telefono])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);" (627a98df)
+2023-03-06T23:02:57.3861945-06:00 8000002a-0006-ff00-b63f-84710c7967bb [ERR] An exception occurred in the database while saving changes for context type '"Backend.Entidades.Contexto"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'usuarios' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:f25be19a-0728-42ae-b07f-96446a6f1cb2
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'usuarios' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:f25be19a-0728-42ae-b07f-96446a6f1cb2
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-03-06T23:04:56.5583529-06:00 8000002a-0006-ff00-b63f-84710c7967bb [ERR] Ha ocurrido en clase: UsuarioController, datos del error:Cannot insert explicit value for identity column in table 'usuarios' when IDENTITY_INSERT is set to OFF., fecha: 01/01/0001 0:00:00 (4b11cb4e)
+2023-03-06T23:05:14.7657781-06:00 8000000e-0004-fc00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("4"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 50) (DbType = AnsiString), @p2='?' (DbType = Boolean), @p3='?' (Size = 50) (DbType = AnsiString), @p4='?' (DbType = DateTime), @p5='?' (Size = 50) (DbType = AnsiString), @p6='?' (Size = 5) (DbType = AnsiString), @p7='?' (Size = 8) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [dbo].[usuarios] ([id_usuario], [apellido], [contacto], [correo_electronico], [fecha_nacimiento], [nombre], [pais_residencia], [telefono])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);" (627a98df)
+2023-03-06T23:05:14.7896509-06:00 8000000e-0004-fc00-b63f-84710c7967bb [ERR] An exception occurred in the database while saving changes for context type '"Backend.Entidades.Contexto"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'usuarios' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:f25be19a-0728-42ae-b07f-96446a6f1cb2
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'usuarios' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:f25be19a-0728-42ae-b07f-96446a6f1cb2
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-03-06T23:05:14.8263154-06:00 8000000e-0004-fc00-b63f-84710c7967bb [ERR] Ha ocurrido en clase: UsuarioController, datos del error:Cannot insert explicit value for identity column in table 'usuarios' when IDENTITY_INSERT is set to OFF., fecha: 01/01/0001 0:00:00 (4b11cb4e)
+2023-03-06T23:23:24.7905381-06:00 80000019-0005-fe00-b63f-84710c7967bb [ERR] Ha ocurrido en clase: UsuarioController, datos del error:The instance of entity type 'UsuariosModel' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values., fecha: 01/01/0001 0:00:00 (4dc37bd9)
+2023-03-06T23:25:40.9352868-06:00 8000003a-0006-ff00-b63f-84710c7967bb [ERR] Ha ocurrido en clase: UsuarioController, datos del error:The instance of entity type 'UsuariosModel' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values., fecha: 01/01/0001 0:00:00 (4dc37bd9)
+2023-03-06T23:38:09.8880023-06:00 80000033-0001-ff00-b63f-84710c7967bb [ERR] Ha ocurrido en clase: UsuarioController, datos del error:The instance of entity type 'UsuariosModel' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values., fecha: 01/01/0001 0:00:00 (4dc37bd9)
+2023-03-06T23:38:47.0465195-06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-03-06T23:38:47.0577124-06:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-03-06T23:38:47.0600389-06:00  [INF] Content root path: "C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\backend" (b5d60022)
+2023-03-06T23:39:17.5298339-06:00 80000046-0006-ff00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("8"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 50) (DbType = AnsiString), @p2='?' (DbType = Boolean), @p3='?' (Size = 50) (DbType = AnsiString), @p4='?' (DbType = DateTime), @p5='?' (Size = 50) (DbType = AnsiString), @p6='?' (Size = -1) (DbType = AnsiString), @p7='?' (Size = 8) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [dbo].[usuarios] ([id_usuario], [apellido], [contacto], [correo_electronico], [fecha_nacimiento], [nombre], [pais_residencia], [telefono])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);" (627a98df)
+2023-03-06T23:39:17.6697310-06:00 80000046-0006-ff00-b63f-84710c7967bb [ERR] An exception occurred in the database while saving changes for context type '"Backend.Entidades.Contexto"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'usuarios' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:69058fef-2c7e-4284-a8e2-85429a85d51f
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'usuarios' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:69058fef-2c7e-4284-a8e2-85429a85d51f
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-03-06T23:39:17.7102187-06:00 80000046-0006-ff00-b63f-84710c7967bb [ERR] Ha ocurrido en clase: UsuarioController, datos del error:Cannot insert explicit value for identity column in table 'usuarios' when IDENTITY_INSERT is set to OFF., fecha: 01/01/0001 0:00:00 (4b11cb4e)
+2023-03-06T23:39:37.1854516-06:00 80000002-0007-fd00-b63f-84710c7967bb [ERR] Ha ocurrido en clase: UsuarioController, datos del error:The instance of entity type 'UsuariosModel' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values., fecha: 01/01/0001 0:00:00 (4dc37bd9)

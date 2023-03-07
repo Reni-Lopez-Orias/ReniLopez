@@ -1,0 +1,13 @@
+C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\Backend.Entidades\bin\Debug\netcoreapp3.1\Backend.Entidades.deps.json
+C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\Backend.Entidades\bin\Debug\netcoreapp3.1\Backend.Entidades.runtimeconfig.json
+C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\Backend.Entidades\bin\Debug\netcoreapp3.1\Backend.Entidades.runtimeconfig.dev.json
+C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\Backend.Entidades\bin\Debug\netcoreapp3.1\Backend.Entidades.dll
+C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\Backend.Entidades\bin\Debug\netcoreapp3.1\Backend.Entidades.pdb
+C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\Backend.Entidades\obj\Debug\netcoreapp3.1\Backend.Entidades.csproj.AssemblyReference.cache
+C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\Backend.Entidades\obj\Debug\netcoreapp3.1\Backend.Entidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\Backend.Entidades\obj\Debug\netcoreapp3.1\Backend.Entidades.AssemblyInfoInputs.cache
+C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\Backend.Entidades\obj\Debug\netcoreapp3.1\Backend.Entidades.AssemblyInfo.cs
+C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\Backend.Entidades\obj\Debug\netcoreapp3.1\Backend.Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\Backend.Entidades\obj\Debug\netcoreapp3.1\Backend.Entidades.dll
+C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\Backend.Entidades\obj\Debug\netcoreapp3.1\Backend.Entidades.pdb
+C:\Users\Usuario\Documents\Reni\reni_lopez_orias\backend\Backend.Entidades\obj\Debug\netcoreapp3.1\Backend.Entidades.genruntimeconfig.cache

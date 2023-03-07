@@ -1,0 +1,13 @@
+<div *ngIf="!spinner" class="container mt-4">
+  <div class="row">
+    <div class="col-12">
+      <h2>Actividades</h2>
+    </div>
+  </div>
+
+  <div class="col-12 ">
+    <ul class="scroll-list list-group list-group-flush">
+      <li *ngFor="let item of actividades" class="list-group-item"> Fecha Actividad: {{ item.createDate  | date : "yyyy/MM/dd" }} - Nombre: {{item.usuario.nombre }} {{item.usuario.apellido }}  - Actividad: {{item.actividad}} </li>
+    </ul>
+  </div>
+</div>
